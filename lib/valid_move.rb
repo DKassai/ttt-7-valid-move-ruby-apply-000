@@ -13,8 +13,7 @@ end
 def valid_move? (board,int)
   if position_taken?(board,int) && int.between(0,8) 
     false
-  else if position_taken?(board,int)==true
-    false 
+
   else 
     true 
   end 
